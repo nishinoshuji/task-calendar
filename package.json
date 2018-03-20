@@ -1,0 +1,45 @@
+{
+  "name": "task-calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "webpack": "webpack --mode development",
+    "deploy": "webpack --mode production && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishinoshuji/task-calendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishinoshuji/task-calendar/issues"
+  },
+  "homepage": "https://github.com/nishinoshuji/task-calendar#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-react": "^7.7.0",
+    "node-sass": "^4.7.2",
+    "reset-css": "^3.0.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
